@@ -14,3 +14,4 @@ public class CollectLogic : MonoBehaviour
     }
 
 }
+ // Whoever gets this... The system my teammate was working on may just add 10 points when the AI goes into the drop range so this detection may be useless?

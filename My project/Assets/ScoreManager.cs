@@ -19,3 +19,8 @@ public class ScoreManager : MonoBehaviour
       
     }
 }
+
+
+// If you want to add points you can call AddPoints() in another script
+// use this  ScoreManager scoreManager; // references the ScoreManager script
+// then this  scoreManager.AddPoints(); // accesses ScoreManager script and calls AddPoints method 
