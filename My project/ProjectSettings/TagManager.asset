@@ -4,15 +4,15 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - Collectable
+  - Collector
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Obstacle
   - Water
   - UI
-  - 
+  - Ground
   - 
   - 
   - 
