@@ -5,12 +5,12 @@ public class ScoreManager : MonoBehaviour
    
     public int score = 0; // score value = 0 at start of game
 
-    public TMPro.TextMeshProUGUI scoreText;
+    public TMPro.TextMeshProUGUI scoreText; // creates a field in the inspector that can have a TMP UGUI element assigned to it
 
     private void Awake()
     {
         score = 0;
-        // score value = 0 at start of game
+        // sets score value = 0 at start of game
     }
     public void AddPoints() 
     {

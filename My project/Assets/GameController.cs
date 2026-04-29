@@ -10,14 +10,15 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Agent == null || Target == null) return;
+        if (Agent == null || Target == null) return; // if the agent is not assigned or missing AND/OR the Target is not assigned or missing, return the update
 
         Agent.SetDestination(Target.transform.position); // make trash collector move towards the trash
+        
     }
 
     // Call this to change the target at runtime (pass an instantiated prefab or scene object)
-    public void SetTarget(GameObject t)
+    public void SetTarget(GameObject t) // sets the target for the AI nav mesh agent to be the trash
     {
-        Target = t;
+        Target = t; // "t" is the last spawned instance of the trash cube prefab 
     }
 }

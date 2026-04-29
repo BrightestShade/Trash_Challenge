@@ -11,6 +11,7 @@ public class CubeSpawner : MonoBehaviour
     public float timer = 0;
     public float spawnInterval = 10f; // the seconds between spawns
 
+    
     void Start()
     {
         if (gameController == null)
@@ -35,11 +36,13 @@ public class CubeSpawner : MonoBehaviour
             // If we have a GameController available, assign the spawned instance as the target
             if (instance != null)
             {
+
                 if (gameController == null)
                 {
                     // Replace deprecated FindObjectOfType with FindFirstObjectByType
                     gameController = FindFirstObjectByType<GameController>();
                 }
+
 
                 if (gameController != null)
                 {
