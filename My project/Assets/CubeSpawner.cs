@@ -46,7 +46,9 @@ public class CubeSpawner : MonoBehaviour
 
                 if (gameController != null)
                 {
+
                     gameController.SetTarget(instance);
+
                 }
             }
         }
